@@ -1,0 +1,31 @@
+#include <iostream>
+
+int main() {
+    // Logical OR (||)
+    bool condition1 = true;
+    bool condition2 = false;
+    bool result_or = condition1 || condition2;
+
+    std::cout << "Logical OR:" << std::endl;
+    std::cout << "Condition1 || Condition2: " << (condition1 || condition2) << std::endl;
+    std::cout << "Result: " << result_or << std::endl;
+
+    // Logical NOT (!)
+    bool condition3 = true;
+    bool result_not = !condition3;
+
+    std::cout << "\nLogical NOT:" << std::endl;
+    std::cout << "!Condition3: " << !condition3 << std::endl;
+    std::cout << "Result: " << result_not << std::endl;
+
+    // Logical XOR (^)
+    bool condition4 = true;
+    bool condition5 = true;
+    bool result_xor = condition4 ^ condition5;
+
+    std::cout << "\nLogical XOR:" << std::endl;
+    std::cout << "Condition4 ^ Condition5: " << (condition4 ^ condition5) << std::endl;
+    std::cout << "Result: " << result_xor << std::endl;
+
+    return 0;
+}
